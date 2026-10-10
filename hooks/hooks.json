@@ -1,0 +1,1 @@
+{"hooks":{"PostToolUse":[{"hooks":[{"command":"python3 \"${CLAUDE_PLUGIN_ROOT}/hooks/post_write_warn.py\"","timeout":15,"type":"command"}],"matcher":"Write|Edit"}],"PreToolUse":[{"hooks":[{"command":"python3 \"${CLAUDE_PLUGIN_ROOT}/hooks/pre_commit_audit.py\"","timeout":120,"type":"command"}],"matcher":"Bash"}]}}

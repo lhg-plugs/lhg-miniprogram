@@ -1,0 +1,6 @@
+<!-- 坏用例：埋点 MP-SENS-001 / MP-PAY-001 / MP-WXML-001 -->
+<view class="container">
+  <image src="/images/banner.png"></image>
+  <text>全网最火的赌博游戏平台，赶紧参与</text>
+  <button bindtap="goHome">购买会员</button>
+</view>

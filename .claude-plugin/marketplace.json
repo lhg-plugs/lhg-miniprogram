@@ -1,0 +1,1 @@
+{"$schema":"https://json.schemastore.org/claude-code-marketplace.json","name":"lhg-plugs","owner":{"name":"刘洪光"},"plugins":[{"description":"小程序开发专家：一句话生成微信小程序（页面规划 / 开发规范 / 接口联调 / 提审检测）","name":"lhg-miniprogram","source":"./"}]}

@@ -1,0 +1,5 @@
+<view class="container">
+  <image src="/images/banner.png" lazy-load></image>
+  <text>欢迎使用示例小程序</text>
+  <button id="agree-btn">同意隐私协议</button>
+</view>
