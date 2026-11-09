@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1200" height="420" viewBox="0 0 1200 420"
+     role="img" aria-labelledby="title desc">
+  <title id="title">lhg-miniprogram — 小白一句话→微信小程序</title>
+  <desc id="desc">小白一句话→微信小程序：页面规划、开发规范、接口联调、提审前脚本化检测，一条龙把想法变成能提审的小程序。</desc>
+
+  <defs>
+    <style>
+      .sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif; }
+      .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+    </style>
+  </defs>
+
+  <rect width="1200" height="420" rx="26" fill="#0A0F1E"/>
+  <line x1="688" y1="48" x2="688" y2="372" stroke="#26355C" stroke-width="1.5"/>
+
+  <!-- 左：标题区 -->
+  <g id="title-block">
+    <text class="mono" x="56" y="80" font-size="17" letter-spacing="2" fill="#7C9EFF">CLAUDE CODE PLUGIN · LHG-PLUGS</text>
+    <text class="sans" x="56" y="142" font-size="46" font-weight="700" fill="#E8ECF5">lhg-miniprogram</text>
+    <text class="sans" x="56" y="188" font-size="23" font-weight="600" fill="#E8ECF5">小白一句话→微信小程序</text>
+
+    <rect x="56" y="248" width="600" height="52" rx="10" fill="#16203A" stroke="#26355C" stroke-width="1.5"/>
+    <text class="mono" x="76" y="281" font-size="17" fill="#7C9EFF">/plugin marketplace add lhg-plugs/lhg-miniprogram</text>
+
+    <text class="sans" x="56" y="340" font-size="17" fill="#8E9BB8">v1.0.0 · 3 命令 · 4 Skills · 2 Agents · 21 规则 · MIT</text>
+  </g>
+
+  <!-- 右：能力卡片 -->
+  <g id="capability">
+    <text class="mono" x="720" y="80" font-size="16" letter-spacing="2" fill="#7C9EFF">CAPABILITY · 成套交付</text>
+    <g id="card-1">
+      <rect x="720" y="96" width="424" height="56" rx="10" fill="#111830"/>
+      <text class="sans" x="744" y="121" font-size="20" font-weight="700" fill="#E8ECF5">命令</text>
+      <text class="sans" x="1116" y="124" font-size="24" font-weight="700" fill="#7C9EFF" text-anchor="end">3</text>
+      <text class="sans" x="744" y="142" font-size="16" fill="#8E9BB8">miniprogram / miniprogram…</text>
+    </g>
+    <g id="card-2">
+      <rect x="720" y="160" width="424" height="56" rx="10" fill="#111830"/>
+      <text class="sans" x="744" y="185" font-size="20" font-weight="700" fill="#E8ECF5">SKILLS</text>
+      <text class="sans" x="1116" y="188" font-size="24" font-weight="700" fill="#7C9EFF" text-anchor="end">4</text>
+      <text class="sans" x="744" y="206" font-size="16" fill="#8E9BB8">lhg-mp-api / lhg-mp-dev /…</text>
+    </g>
+    <g id="card-3">
+      <rect x="720" y="224" width="424" height="56" rx="10" fill="#111830"/>
+      <text class="sans" x="744" y="249" font-size="20" font-weight="700" fill="#E8ECF5">AGENTS</text>
+      <text class="sans" x="1116" y="252" font-size="24" font-weight="700" fill="#7C9EFF" text-anchor="end">2</text>
+      <text class="sans" x="744" y="270" font-size="16" fill="#8E9BB8">mp-auditor / mp-builder</text>
+    </g>
+    <g id="card-4">
+      <rect x="720" y="288" width="424" height="56" rx="10" fill="#111830"/>
+      <text class="sans" x="744" y="313" font-size="20" font-weight="700" fill="#E8ECF5">确定性审计规则</text>
+      <text class="sans" x="1116" y="316" font-size="24" font-weight="700" fill="#7C9EFF" text-anchor="end">21</text>
+      <text class="sans" x="744" y="334" font-size="16" fill="#8E9BB8">blocker 10 · warning 10 · nit 1</text>
+    </g>
+  </g>
+</svg>
